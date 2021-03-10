@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Imbue:wght@100&family=Pacifico&display=swap');
+
+:root{
+  --clr-main: #50a2a3;
+  --clr-contrast: #23312e;
+  --clr-middle: #7f745d
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--clr-contrast)
+}
+
+body{
+  /* height: 100vh; */
+  background-image: url('sebastien-le-derout-I9A9OWFN0ow-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+font-family: 'Berkshire Swash', cursive;
+}
+
+.container{
+  height: 75vh;
+}
+
+h1{
+  color: var(--clr-middle);
+  text-shadow: 0 0 5px var(--clr-main);
+}
+
+.btn{
+  background-color: var(--clr-contrast);
+  color: var(--clr-middle);
+  border-color: var(--clr-middle)
+}
+.btn:hover{
+  background-color: #3F5752;
+  color: var(--clr-middle);
+  border-color: var(--clr-middle);
+}
+
+.bg-light{
+  background-color: transparent !important;
+}
